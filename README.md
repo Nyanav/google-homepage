@@ -1,0 +1,1 @@
+For this mini-project, I'm going to deconstruct an existing web page and rebuild it using chrome's developer tools!
