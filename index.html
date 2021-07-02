@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<style>
+
+.gmail{
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 13px;
+    display: inline-block;
+    line-height: 24px;
+    vertical-align: middle;
+    padding-top: 12px;
+}
+.images{
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 13px;
+    display: grid;
+    line-height: 24px;
+    vertical-align: middle;
+    padding-top: 12px;
+}
+.profile {
+    -webkit-background-size: 32px 32px;
+    background-size: 32px 32px;
+    border: 0;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    display: block;
+    margin: 0px;
+    position: relative;
+    height: 32px;
+    width: 32px;
+    z-index: 0;
+}
+.apps{
+    -webkit-background-size: 25px 25px;
+    background-size: 25px 25px;
+    border: 0;
+    -webkit-border-radius: 100%;
+    border-radius: 50%;
+    display: block;
+    margin: 0px;
+    position: relative;
+    height: 25px;
+    width: 25px;
+    z-index: 0;
+    padding-top: 4px;
+}
+.nav{
+  list-style-type: none;
+  margin: 0;
+  padding-left: 1220px;
+}
+.navli{
+  float: left;
+}
+.footli{
+  float: left;
+}
+a {
+  display: block;
+  padding: 8px;
+  background-color: white;
+}
+.logo{
+    padding-top: 35px;
+    padding-left: 570px;
+}
+.srccontainer{
+    width: auto;
+    max-width: 700px;
+    background: white;
+    display: flex;
+    border: 1px solid rgb(187, 181, 181);
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 600px;
+    margin-top: 20px;
+}
+.srclogo{
+    padding-top: 15px;
+    padding-left: 10px;
+    width: 15px;
+    height: 15px;
+}
+.textbox{
+    border: none;
+    width: 400px;
+    height: 40px;
+    padding-left: 20px;
+}
+.textbox:focus{
+    outline: none;
+}
+.mic{
+    padding-top: 13px;
+    padding-left: 110px;
+    width: 15px;
+    height: 20px;
+}
+.glsrc{
+    margin-top: 30px;
+    width: 120px;
+    height: 35px;
+    background-color: #f8f8f8;
+    border: none;
+    margin-left: 575px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.lucky{
+    margin-top: 30px;
+    width: 120px;
+    height: 35px;
+    background-color: #f8f8f8;
+    border: none;
+    margin-left: 5px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.country{
+    background-color: rgb(243, 243, 243);
+    height: 50px;
+    margin-top: 220px;
+}
+.countrytext{
+    color: #888888;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+.advertising{
+    float: left;
+    display: block;
+    color: #888888;
+    background-color: rgb(243, 243, 243);
+    text-align: center;
+    padding-top: 30px;
+    text-decoration: none;
+    font-size: 17px;
+    padding-left: 30px;
+}
+.business{
+    float: left;
+    display: block;
+    color: #888888;
+    background-color: rgb(243, 243, 243);
+    text-align: center;
+    padding-top: 30px;
+    text-decoration: none;
+    font-size: 17px;
+    padding-left: 30px;
+}
+.about{
+    float: left;
+    display: block;
+    color: #888888;
+    background-color: rgb(243, 243, 243);
+    text-align: center;
+    padding-top: 30px;
+    text-decoration: none;
+    font-size: 17px;
+    padding-left: 30px;
+}
+.how{
+    float: left;
+    display: block;
+    color: #888888;
+    background-color: rgb(243, 243, 243);
+    text-align: center;
+    padding-top: 30px;
+    text-decoration: none;
+    font-size: 17px;
+    padding-left: 30px;
+}
+.privacy{
+    float: left;
+    display: block;
+    color: #888888;
+    background-color: rgb(243, 243, 243);
+    text-align: center;
+    padding-top: 30px;
+    text-decoration: none;
+    font-size: 17px;
+    padding-left: 700px;
+}
+.terms{
+    float: left;
+    display: block;
+    color: #888888;
+    background-color: rgb(243, 243, 243);
+    text-align: center;
+    padding-top: 30px;
+    text-decoration: none;
+    font-size: 17px;
+    padding-left: 30px;
+}
+.settings{
+    float: left;
+    display: block;
+    color: #888888;
+    background-color: rgb(243, 243, 243);
+    text-align: center;
+    padding-top: 30px;
+    text-decoration: none;
+    font-size: 17px;
+    padding-left: 30px;
+}
+.footbar{
+  background-color: rgb(243, 243, 243);
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  list-style-type: none;
+  height: 75px;
+  border-width: 10px;
+}
+
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>Nyanav's Google Homepage</title>
+</head>
+<ul class="nav">
+    <li class="navli"><a class="gmail" href="https://mail.google.com/mail/">Gmail</a></li>
+    <li class="navli"><a class="images" href="https://www.google.co.id/imghp?hl=en&authuser=0&ogbl">Images</a></li>
+    <li class="navli"><a href="#"><img class="apps" src="https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_apps_48px-512.png" alt="Google Apps"></a></li>
+    <li class="navli"><a href="https://github.com/Nyanav"><img class="profile" src="https://lh3.googleusercontent.com/ogw/ADea4I4ric-N-6jIfP8QQ4YyYnK0Ghi4WTxnxu0fIt3pLQ=s32-c-mo" srcset="https://lh3.googleusercontent.com/ogw/ADea4I4ric-N-6jIfP8QQ4YyYnK0Ghi4WTxnxu0fIt3pLQ=s32-c-mo 1x, https://lh3.googleusercontent.com/ogw/ADea4I4ric-N-6jIfP8QQ4YyYnK0Ghi4WTxnxu0fIt3pLQ=s64-c-mo 2x " alt="" aria-hidden="true" data-noaft="" data-atf="1"></a></li>
+</ul>
+
+<body>
+    <a href="https://www.google.com/"><img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo"></a>
+    <div class="srccontainer">
+        <div>
+            <img class="srclogo" src="https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-2.png" alt="">
+        </div>
+        <div>
+          <form>
+            <input type="text" class="textbox">
+          </form>
+        </div>
+        <div>
+            <img class="mic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/534px-Google_mic.svg.png" alt="">
+        </div>
+    </div>
+    
+    <div>
+        <input type="button" class="glsrc" value="Google Search">
+        <input type="button" class="lucky" value="I'm Feeling Lucky">
+    </div>
+</body>
+
+<footer>
+    <div class="country">
+        <p class="countrytext">Indonesia</p>
+    </div>
+    <div class="footbar">
+        <li class="footli"><a class="about" href="https://about.google/?utm_source=google-ID&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a></li>
+        <li class="footli"><a class="advertising" href="https://www.google.com/intl/en_id/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+        <li class="footli"><a class="business" href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a></li>
+        <li class="footli"><a class="how" href="https://google.com/search/howsearchworks/?fg=1">How Search Works</a></li>
+        <li class="footli"><a class="privacy" href="https://policies.google.com/privacy?hl=en-ID&fg=1">Privacy</a></li>
+        <li class="footli"><a class="terms" href="https://policies.google.com/terms?hl=en-ID&fg=1">Terms</a></li>
+        <li class="footli"><a class="settings" href="">Settings</a></li>
+      </div>
+</footer>
+</html>
+
+       
+            
+
+    
+
+
